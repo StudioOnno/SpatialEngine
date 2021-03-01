@@ -1,2 +1,28 @@
 Spatial Engine source code. 
 All these patchers Must be compiled into an ableton MaxforLife plugin in order to use them.  
+
+BROWSEROUTING: 
+- Multichannel IO for Ableton 
+
+
+Poly_Patch: 
+- Dynamic OSC wrapper for Unity3D sources 
+
+
+PlanePatch
+- Combine 4 layers of VBAP2D to create advanced panning tool for Separate X and Y axis spreading of Vbap sources 
+
+
+SpeakerNumPoly
+- Assign speaker positions to channel number
+
+`VisualPoly
+- Render sound sources in OpenGl visualiser 
+
+Spatial Engine - Studio Onno.amxd.maxpat
+- Main app, including
+  - Ambisonic mixer
+  - Virtualspeakers HRTF Renderer
+  - Vbap3D Spat~ engine
+  - OSC FULPACKET Data socket over UDP
+  - GUI stuff
